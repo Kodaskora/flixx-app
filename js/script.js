@@ -40,7 +40,11 @@ async function search() {
   global.search.type = urlParams.get('type');
   global.search.term = urlParams.get('search-term');
 
-  
+  if (global.search.term !== '' && global.search.term !== null) {
+    
+  }else{
+    
+  }
 }
 
 function showSpinner() {
